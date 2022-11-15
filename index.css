@@ -1,24 +1,109 @@
+body{
+    /*background-color: #1A1631;*/
+    background-image: url("./fondo-hero-pp.jpeg");
+    background-size: cover;
+}
+header{
+    background: linear-gradient(90deg, rgba(22,16,54,0.45) 0%, rgba(146,84,132,0.45) 31%);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    border-bottom: 2px solid #028EE6;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 15px;
+}
 .barra {
     display: flex;
     justify-content: flex-start;
     flex-direction: row-reverse;
     align-items: center;
-    border-bottom: 2px solid #028EE6;
-    box-shadow: 0px 0px 5px black;
-    height: 100px;
-
+    
+    height: 80px;
+    
 }
 .lista{
+    cursor: pointer;
+    margin-right: 10%;
     display: flex;
     flex-direction: row;
     gap: 30px;
     list-style: none;
 }
-img{
+.options{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(175, 181, 209);
+    opacity: 0.5;
+    width: 90px;
+    height: 20px;
+    border-radius: 10px;
+    font-weight: bolder;
+    box-shadow: 0px 0px 5px#028EE6;
+}
+.logo{
+    margin-left: 5%;
     width: 100px;
-    height: 100px;
+    height: 80px;
 }
 a{
     text-decoration: none;
     color: black;
+}
+section {
+    margin-top: 10px;
+    height: 400px;
+    width: 100%;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(22,16,54,0.40) 0%, rgba(146,84,132,0.40) 31%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.div1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 30px;
+    font-weight: 550;
+}
+p{
+    width: 70%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.fondo-hero{
+    height: 100%;
+    width: 50%;
+    background-image: url("./hero-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    opacity: 0.80;
+
+}
+.button-hero{
+    display: flex;
+    gap: 30px;
+    opacity: 0.5;
+}
+button{
+    border: none;
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    font-weight: bolder;
+    box-shadow: 0px 0px 5px#028EE6;
+}
+.font-hero{
+    background: linear-gradient(90deg, rgb(148, 114, 140) 0%, rgb(242, 205, 234) 31%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+
 }
